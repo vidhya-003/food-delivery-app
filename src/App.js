@@ -1,6 +1,6 @@
 import './style.css';
 import './App.css';
-import { BrowserRouter, Navigate } from 'react-router-dom';
+import { BrowserRouter } from 'react-router-dom';
 import store from './Store';
 import {Provider} from 'react-redux';
 import Navbar from './components/Navbar';
@@ -10,7 +10,7 @@ import FoodDisplay from './components/FoodDisplay';
 import Routing from './Routing';
 import Footer from './components/Footer';
 import LoginPopup from './components/LoginPopup';
-import Cart from './pages/Cart';
+
  
 
 

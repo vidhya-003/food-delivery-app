@@ -10,7 +10,7 @@ const Routing = () => {
     <>
       <Routes>
 
-    <Route path='/cart' element={<Cart/>} />
+    <Route path='/Cart' element={<Cart/>} />
     <Route path='/' element={<PlaceOrder/>} />
    </Routes>
     </>
