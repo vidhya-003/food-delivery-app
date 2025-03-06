@@ -1,7 +1,7 @@
 {
   "name": "food_delivery",
   "version": "0.1.0",
-  "homepage": "https://github.com/vidhya-003/food-delivery-app.git",
+  "homepage": "https://ecommerce-food-delivery.netlify.app/",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.13.3",
