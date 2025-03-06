@@ -26,7 +26,7 @@ const ExploreMenu = ({category,setCategory}) => {
     const dataset=data && data.map((item,index)=>{
         return(
             <div onClick={()=>setCategory(item.menu_name)} key={index} className='explore-menu-list-item'>
-                <img className={category===item.menu_name?"active":""} src={item.menu_image}></img>
+                <img className={category===item.menu_name?"active":""} src={item.menu_image} alt="Food item"></img>
                 <p>{item.menu_name}</p>
                 
             </div>

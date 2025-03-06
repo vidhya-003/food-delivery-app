@@ -1,7 +1,6 @@
 import React from 'react'
 import {connect} from "react-redux"
 import { removeFromCart } from '../Action/Action';
-import { food_list } from '../components/foodList';
 import {getTotalCartAmount} from './CartSummary';
 
 

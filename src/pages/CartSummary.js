@@ -1,5 +1,4 @@
-import React from 'react'; 
-import { food_list } from '../components/foodList';
+
 
 export const getTotalCartAmount = (cartItems, food_list) => {
     let totalAmount = 0;
