@@ -8,7 +8,7 @@ const Navbar = ({setShowLogin}) => {
     const[menu,setMenu]=useState("home");
   return (
     <div className="navbar">
-       <Link to="/"> <h3>Food Delivey App</h3></Link>
+       <Link to="/"> <h3>Food Delivery App</h3></Link>
         <ul className="navbar-menu">
             <Link to='/' onClick={()=>setMenu("Home")} className={menu === "home"?"active":""}>Home</Link>
             <a href='#explore-menu' onClick={()=>setMenu("Menu")} className={menu === "menu"?"active":""}>Menu</a>
